@@ -9,7 +9,7 @@ int stringcompare(char *s1, char *s2) {
 }
 int main() {
 	printf("%d", stringcompare("Hello", "Hallo"));
-	printf("%d", stringcompare("a", "a"));
+	printf("%d", stringcompare("b", "b"));
 	return 0;
 }
 
