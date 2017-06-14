@@ -8,8 +8,11 @@ int stringcompare(char *s1, char *s2) {
 	return s1[i] - s2[i];
 }
 int main() {
-	printf("%d", stringcompare("Hello", "Hallo"));
+
+    printf("%d", stringcompare("World", "World"));
 	printf("%d", stringcompare("b", "b"));
+
+
 	return 0;
 }
 
