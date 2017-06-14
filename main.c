@@ -5,7 +5,7 @@ int stringcompare(char *s1, char *s2) {
 	while(s1[i] == s2[i] && s1[i] && s2[i]) {
 		i++;
 	}
-	return s2[i] - s1[i];
+	return s1[i] - s2[i];
 }
 int main() {
 	printf("%d", stringcompare("Hello", "Hallo"));
